@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNGH3DWX4H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YNGH3DWX4H');
+  </script>
 </head>
+
 <body>
 
   <!-- Header Section -->
@@ -35,13 +46,15 @@
 
     <section id="about" class="content-section">
       <h2>About Us</h2>
-      <p>Laer Innovation Inc. specializes in providing top-notch consulting services, leveraging technology and innovation to drive your business success.</p>
+      <p>Laer Innovation Inc. specializes in providing top-notch consulting services, leveraging technology and
+        innovation to drive your business success.</p>
     </section>
 
     <section id="services" class="content-section">
       <h2>Our Services</h2>
       <ul>
-        <li><strong>Software Engineering Consulting</strong>: Custom solutions tailored to meet your specific needs.</li>
+        <li><strong>Software Engineering Consulting</strong>: Custom solutions tailored to meet your specific needs.
+        </li>
         <li><strong>Digital Transformation</strong>: Helping businesses adapt and thrive in a digital world.</li>
         <li><strong>Project Management</strong>: Ensuring project success from conception to execution.</li>
       </ul>
@@ -61,4 +74,5 @@
   </footer>
 
 </body>
+
 </html>
