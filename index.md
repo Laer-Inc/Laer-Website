@@ -25,6 +25,5 @@ title: "Laer Innovation Inc."
 
 <div id="contact">
   <h2>Contact Us</h2>
-  <p>Email: <a href="mailto:contact@laerinnovation.com">contact@laerinnovation.com</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/company/laerinnovation" target="_blank">Laer Innovation Inc.</a></p>
+  <p>Email: <a href="mailto:business@laer.in">business@laer.in</a></p>
 </div>
